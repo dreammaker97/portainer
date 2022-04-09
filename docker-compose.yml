@@ -1,0 +1,10 @@
+version: "3"
+services:
+  name:
+    container_name: portainer
+    image: portainer/portainer-ce
+    ports:
+      - "9000:9000"
+    environment:
+      - ABC=ABC
+    restart: always
